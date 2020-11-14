@@ -31,6 +31,9 @@ call plug#end()
 "Запуск "EasyMotion"
 map <Leader> <Plug>(easymotion-prefix)
 
+"Замена клавиши "/" на "," для более удобного управления
+ let g:mapleader=','
+
 "Нумерация строк
 set number 
 
